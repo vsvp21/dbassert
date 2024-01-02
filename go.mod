@@ -1,4 +1,4 @@
-module github.com/vsvp21/dbassert/v1
+module github.com/vsvp21/dbassert
 
 go 1.21.1
 
