@@ -1,6 +1,6 @@
 module github.com/vsvp21/dbassert
 
-go 1.21.1
+go 1.21
 
 require (
 	gorm.io/driver/postgres v1.5.4
