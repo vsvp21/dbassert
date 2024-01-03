@@ -2,6 +2,11 @@
 
 Package to check if model exists in DB or not via DBHas, DBHasNot functions
 
+**Installation**
+```shell
+go get github.com/vsvp21/dbassert
+```
+
 **Examples of assertions:**
 
 ```go
@@ -9,7 +14,7 @@ package test
 
 import (
 	"fmt"
-	"github.com/vsvp21/dbassert/v1"
+	"github.com/vsvp21/dbassert"
 	"log"
 	"gorm.io/gorm"
 	"gorm.io/driver/postgres"
